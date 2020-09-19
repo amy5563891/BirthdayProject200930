@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="200dp"
+        android:background="#A0B9C6"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:text="This Is A Birthday Challenge" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="歡迎來到生日大挑戰!以下有六道非~常簡單的題目，答對五題以上就可以直接獲得生日禮物，否則就要接受處罰才能拿到禮物喔~~" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Start Nowwwww!"
+        android:onClick="Start"/>
+
+</LinearLayout>

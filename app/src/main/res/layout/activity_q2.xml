@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="-Heidi's part-"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="如果用手搖店的糖度計算Heidi的甜度，Heidi覺得自己是幾分糖呢?"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/questiontwo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="全糖"
+            android:id="@+id/button1"
+            android:background="#B0B5B3"
+            android:onClick="B1click"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="半糖"
+            android:id="@+id/button2"
+            android:background="#B0B5B3"
+            android:onClick="B2click"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="微糖"
+            android:id="@+id/button3"
+            android:background="#B0B5B3"
+            android:onClick="B3click"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="無糖"
+            android:id="@+id/button4"
+            android:background="#B0B5B3"
+            android:onClick="B4click"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="bottom">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:text="上一題"
+                    android:onClick="LastPage"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:text="下一題"
+                    android:onClick="NextPage"/>
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
